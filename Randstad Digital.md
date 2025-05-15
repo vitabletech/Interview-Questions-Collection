@@ -1,4 +1,4 @@
-### 🏢 **Randstad Digital** | Fullstack Developer | Node.js, React.js | Remote/India
+### 🏢 **Randstad Digital** | Fullstack Developer | Node.js, React.js | Bangalore/India
 
 **Round 1** – L1 Technical Interview (Virtual Video Call)  
 👤 *Interviewer: Rathon Sriram*
