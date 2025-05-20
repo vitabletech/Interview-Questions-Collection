@@ -1,6 +1,6 @@
 ### 🏢 **Randstad Digital** | Fullstack Developer | Node.js, React.js | Bangalore/India
 
-**Round 1** – L1 Technical Interview (Virtual Video Call)  
+**Round 1** – L1 Technical Interview (Virtual Video Call)
 👤 *Interviewer: Rathon Sriram*
 
 #### 🔹 Interview Questions
@@ -122,3 +122,196 @@
 19. **How do you handle errors in React JS?**
 
     * (Error boundaries, try/catch, global handlers, etc.)
+
+**Round 2** – L2 Technical Interview (Virtual Video Call)
+👤 *Interviewer: Dhruv Rana*
+
+## 🔹 System Design & Browser Fundamentals
+
+- Explain the journey of a **request to response** when a URL is entered in the browser.
+- What’s the difference between **HTTP and HTTPS**?
+- What is the purpose of a **CDN (Content Delivery Network)**?
+- If a webpage becomes **unresponsive** and shows a **popup**, what should be checked and how can it be fixed?
+- How does **asynchronous code work in the browser**?
+
+---
+
+## 🔹 Build Tools & JavaScript Runtime
+
+- What are **build tools** like Webpack or Vite?  
+  - What problem do they solve?
+  - How are they used in a typical frontend project?
+
+---
+
+## 🔹 JavaScript Concepts & Code Analysis
+
+### ✅ Callback Example & Use
+
+- How do **callbacks** work in JavaScript?
+  - Provide a real-world example.
+
+---
+
+### ✅ Code Output Analysis
+
+#### 1. Variable Hoisting & TDZ (Temporal Dead Zone)
+
+```js
+console.log(a); // undefined
+var a = 5;
+
+console.log(typeof foo); // ReferenceError
+let foo = 43;
+````
+
+#### 2. `var` vs Arrow Function `this` Binding in `setTimeout`
+
+```js
+const counter = {
+  value: 0,
+  inc() {
+    setTimeout(function () {
+      this.value++;
+      console.log('regular', this.value); // NaN or undefined
+    }, 0);
+
+    setTimeout(() => {
+      this.value++;
+      console.log('arrow', this.value); // Correctly increments
+    }, 0);
+  },
+};
+counter.inc();
+```
+
+#### 3. Unknown `MyWallet` Custom Function
+
+```js
+const wallet = MyWallet();
+wallet.add(x);
+wallet.add(y);
+wallet.retrieve();
+```
+
+* Asked to implement or explain expected behavior (custom class structure).
+
+#### 4. Event Loop + Microtask + Macrotask Ordering
+
+```js
+console.log(1);
+setTimeout(() => console.log(2), 0);
+Promise.resolve()
+  .then(() => console.log(3))
+  .then(() => {
+    setTimeout(() => console.log(4), 0);
+    console.log(5);
+  });
+console.log(6);
+```
+
+Expected Output:
+1 → 6 → 3 → 5 → 2 → 4
+
+#### 5. Prototype Chain & Property Shadowing
+
+```js
+function Animal() {}
+Animal.prototype.eats = true;
+
+function Rabbit() {}
+Rabbit.prototype = Object.create(Animal.prototype);
+Rabbit.prototype.jumps = true;
+
+const r = new Rabbit();
+Rabbit.prototype.eats = false;
+
+console.log(r.eats);                    // true
+console.log('eats' in r);              // true
+console.log(r.hasOwnProperty('eats')); // false
+```
+
+#### 6. Async/Await Execution Order
+
+```js
+(async () => {
+  console.log(1);
+  setTimeout(() => console.log(2));
+  await Promise.resolve(console.log(3));
+  console.log(4);
+  setTimeout(() => console.log(5));
+  await null;
+  console.log(6);
+})();
+
+Promise.resolve().then(() => console.log('G'));
+setTimeout(() => console.log('H'), 0);
+console.log('I');
+```
+
+Expected Output:
+1 → 3 → I → 4 → 6 → G → 2 → 5 → H
+
+---
+
+## 🔹 Async Function Sequencing (Custom Implementation)
+
+### 🧪 Problem:
+
+* Create a `custom_function(p1, p2, p3, p4...)` that:
+
+  * Accepts **dynamic arguments (functions)**.
+  * Runs them **sequentially**.
+  * Passes the **result of one promise** to the **next**.
+
+#### Sample Functions:
+
+```js
+const p1 = param => {
+  console.log('p1 called with param', param);
+  return Promise.resolve(1);
+};
+const p2 = param => {
+  console.log('p2 called with param', param);
+  return Promise.resolve(2);
+};
+// and so on...
+```
+
+---
+
+## 🔹 Functional Programming
+
+* What is **Functional Programming**?
+
+  * Benefits?
+  * Comparison with **Object-Oriented Programming** (OOP)?
+
+---
+
+## 🔹 Currying & Composition
+
+* What is **currying**?
+
+  * Show an **example with dynamic arguments**.
+* What is **function composition**?
+
+---
+
+## 🔹 Debounce & Throttling
+
+* Explain the concepts of **debounce** and **throttling**.
+* Implement both in JavaScript.
+
+---
+
+## 🔹 Deep vs Shallow Copy
+
+* What is the difference between **shallow copy** and **deep copy**?
+* Write a **custom deep copy function**.
+
+---
+
+✅ *This round was heavily focused on JavaScript internals, async flow, browser event loop, and frontend build tools. It also tested the ability to implement custom logic in real-world scenarios.*
+
+```

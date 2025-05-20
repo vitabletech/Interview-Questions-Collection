@@ -1,9 +1,10 @@
-### 🏢 **Altimetrik**  
+### 🏢 **Altimetrik**
 🛠️ **Role:** Engineer – Site Reliability Engineering (SRE)  
 📍 **Location:** Bangalore, India  
 👤 **Interviewer:** Vaibhav Nigam
 
 ---
+**Round 1** – Technical Interview (Virtual Video Call)
 
 ## 🔹 Introduction & Project Discussion
 
@@ -135,5 +136,6 @@
 
 
 ---
+**Round 2** – Online Technical Test (Hackerrank Round)
 
 ✅ *This interview covered a wide range of topics—from cloud and DevOps (AWS, CI/CD, SRE principles) to deep backend concepts in Node.js and TypeScript, with practical coding problems and architectural discussions.*
