@@ -91,7 +91,7 @@
 1. **React Timer Component:**  
    - Start / Pause / Reset functionality
 
-2. **Custom Accordion Component:**  
+2. **[Custom Accordion Component:](https://namastedev.com/practice/accordion)**  
    Structure:
    ```jsx
    <Accordion style={{ width: '400px', margin: '20px auto' }}>
