@@ -139,3 +139,36 @@
 **Round 2** – Online Technical Test (Hackerrank Round)
 
 ✅ *This interview covered a wide range of topics—from cloud and DevOps (AWS, CI/CD, SRE principles) to deep backend concepts in Node.js and TypeScript, with practical coding problems and architectural discussions.*
+
+**Round 3** – Technical Client-1 (G-P) Interview (Virtual Video Call)
+👤 **Interviewer:** Sreehari Mohan
+
+- Give me Quick overview of yourself or kind of technologies you've worked.
+- General question related to work experience.
+- You are given an integer n, return the fibonacci series till the nth(0-based indexing) term.
+- How will you access the path that service running inside the container.
+
+**Round 4** – Technical Client-2 (G-P) Interview (Virtual Video Call)
+👤 **Interviewer:** Shashank Murthy
+
+- About your self
+- Shared Company overview what G-P is doing.
+- Coding Round : **Elevator Scheduling Simulation**
+  You are tasked with simulating how an elevator serves a series of floor requests in a building.
+  Each request is represented by a tuple of two floors: the floor a person **gets on** ('start_floor') and the floor they wish to **go to** ('end_floor'). 
+  Your task is to determine the **sequence of floors** where the elevator should open its doors to **efficiently** serve all the requests.
+  - **Key Rules and Assumptions**
+    - The elevator **always starts from floor 1**.
+    - All floor numbers are between **1 and 100**, inclusive ( There are no basement floors in the building )
+    - Every request has **distinct** 'end_floor.
+  - **Objective**
+  - Implement the 'elevator()' function to return the **exact list of floor numbers** where the elevator opens its doors.
+  - Example 1:
+    - I/P requests = [(3, 5), (2, 5), (2, 4), (6, 2)]
+    - o/p =  2,3,4,5,6,2
+  - Example 2:
+    - I/P requests = [(3, 5), (2, 4), (6, 2)]
+    - o/p =  2,3,4,5,6,2
+  - Example 3:
+    - I/P requests = [(2, 4), (4, 3)]
+    - o/p =  2,4,3
