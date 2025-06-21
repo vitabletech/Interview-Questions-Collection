@@ -172,3 +172,23 @@
   - Example 3:
     - I/P requests = [(2, 4), (4, 3)]
     - o/p =  2,4,3
+
+**Round 5** – Techno-Manger Client-3 (G-P) Interview (Virtual Video Call)
+👤 **Interviewer:** Sean Musick
+
+- Just tell me a bit about yourself and what you bring. what you bring to a team, what do you think your big strength are? How you like work?
+- What are key component found in strong team?
+- What are some of the last kind of things that you've worked on that where vou felt really really engaged?
+- What was a specific project where you felt?
+- What's the kind of the last thing that you know, we're always learning in this industry, we have to keep learning. So what's the last either new tool or new technology?
+- Can you imagine like, you know, different issues that might be when it comes to Al and and and and keeping Al in, you know, running in production and stable?
+- Do you find that like you know to one of the challenges in remote working is that exactly like what learning, collaboration and learning from other folks, especially when you're you in the door you know so is there like how do?
+- Talk about your strength
+- What are the what are the places that you've kind of identified?
+- In vertical scaling you know like OK, big giant monolith. There's technical challenges in in the horizontal scaling you know, so distributed tracing, you know, things like that.
+
+**Round 6** – HR Round
+👤 **Interviewer:** Oindrila Bhaduri, C Subhashini reddy
+
+- Tell me about yourself, about your family background.
+- Salary Negotiation.
