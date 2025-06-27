@@ -58,10 +58,13 @@
 - This code challenge is about counting vowels in a string without using predefined methods. The vowels are: a, e, i, o, u (case-insensitive).
 
 
-**Round 1** – HR Discussion (Virtual Video Call)
+**Round 2** – HR Discussion (Virtual Video Call)
 👤 **Interviewer:** Vinoth Kumar Sekar
 
 - Recruiter asked me to share the screen and login into the EPFO and ITR site to download the Service history page and Form-26s
 - Interviewer gives overview of the photon, about there policy, about there leave policy, appraisal cycle etc. 
 - Tell me about yourself, education, about your family.
+
+**Round 3** – L2- with Director (Virtual Video Call)
+👤 **Interviewer:** Vinoth Kumar Sekar
 

@@ -90,4 +90,39 @@
 - Let's consider developer have a store 3 pointer and sprint have 15 days so how much time developer should take how will you decide?
 - Which aws services have you worked?
 
-**Round 3** – Technical Interview (coming soon....)
+**Round 3** – Technical Interview
+
+- ```js
+    var name = 'random'
+    
+    function test() {
+        console.log(name) //undefined
+        var name = 'random again'
+    }
+    test()
+
+
+    let a = true 
+    setTimeout(() => {
+    a = false
+    }, 2000)
+
+    while(a) {
+    console.log("hello")
+    }
+
+
+    const p = new Promise((resolve, b) => {
+    setTimeout(()=>{
+        resolve(2);
+    }, 10);
+    resolve(4);
+    })
+    
+    p.then((r) => console.log(r))
+    .then((p) => console.log(p))
+    .finally(()=> console.log(888)) 
+    .then(z => console.log(z))
+    ```
+
+- **Round 4** – Manger round
