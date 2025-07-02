@@ -5,7 +5,7 @@
 
 ---
 **Round 1** – Technical Interview (Virtual Video Call)
-👤 **Interviewer:** 
+👤 **Interviewer:** Kishan Kumar
 
 - Describe about yourself
 - Which services have you worked on aws?
@@ -66,5 +66,5 @@
 - Tell me about yourself, education, about your family.
 
 **Round 3** – L2- with Director (Virtual Video Call)
-👤 **Interviewer:** Vinoth Kumar Sekar
+👤 **Interviewer:** Nilesh Pancholi
 
