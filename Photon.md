@@ -68,3 +68,26 @@
 **Round 3** – L2- with Director (Virtual Video Call)
 👤 **Interviewer:** Nilesh Pancholi
 
+### 🧑‍💻 **Technical/Work Experience Questions**
+
+1. **Let’s start with your introduction and what you've been doing, your skills, then we'll go further.**
+2. **What all services have you used in AWS and are comfortable with? Like Lambda, API Gateway, EC2?**
+3. **Apart from MySQL, have you worked with MongoDB or DynamoDB?**
+4. **Can you walk me through one of your most complex projects you worked on?**
+5. **What was the team composition and what challenges were you facing? How did you overcome those?**
+6. **Apart from PHP, any other project where you worked on a heavy migration involving Node and AWS services?**
+7. **So, why are you looking for a change?**
+8. **So, you are a contractor there?** *(Clarification about employment type)*
+9. **It means you are available immediately?**
+10. **And you are based out of Bangalore?**
+11. **This role requires you to be in Bangalore and office — are you okay with that?**
+12. **So React, no TypeScript — and I see you also worked on Terraform?**
+13. **Any hands-on Terraform experience, or was it just knowledge from collaboration?**
+
+---
+
+### 🕒 **Work Arrangement & Schedule Questions**
+
+14. **Are you okay and comfortable with this sort of an arrangement of doing four hours of overlap (Pacific Time)?**
+15. **What times were you working in your previous company?**
+16. **Any questions you have for me?**
