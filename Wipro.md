@@ -3,8 +3,6 @@
 👤 **1st Round Interviewer:** Hasan Ali  
 👤 **2nd Round Interviewer:** Mayank Shrivastav
 
-
-
 ## 🔹 1st Round – Online Test iMocha Platform 90 min
 -  There was 3 Section:
     - MCQ Related to js.
