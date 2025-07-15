@@ -1,0 +1,1 @@
+- What is Global Object in Node.js
