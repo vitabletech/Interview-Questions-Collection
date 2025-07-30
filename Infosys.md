@@ -29,3 +29,9 @@
             { name: 'Kelly',  score: 44 }
         ];```
 12. **In react js there is parent component having some text in heading. You have to change parent text when user click on change parent text button which is inside the child component.**
+
+How can you say you have experience in all the tech skills and all you have master?
+Why we hire you?
+Tell you strength
+Tell you soft skill and hard skills?
+Why you are looking for Bangalore location in your location also lots of opportunities?
