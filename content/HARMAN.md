@@ -1,12 +1,11 @@
 ### 🏢 **Infinite.com**
-🛠️ **Role:** MERN Stack Developer
-📍 **Location:** Bangalore, India
-👤 **Recruiter name:** [Pooja Bhargava](Pooja.Bhargava@harman.com)
+- 🛠️ **Role:** MERN Stack Developer
+- 📍 **Location:** Bangalore, India
+- 👤 **Recruiter name:** [Pooja Bhargava](Pooja.Bhargava@harman.com)
 
 ---
-**Round 1** – Technical Interview (Virtual Video Call)
-👤 **Interviewer:** [Shashikanth](Shashikanth.HR@harman.com)
-Here's a **structured breakdown of all the questions** asked in your fourth interview session, categorized by topic for easy reference:
+- **Round 1** – Technical Interview (Virtual Video Call)
+- 👤 **Interviewer:** [Shashikanth](Shashikanth.HR@harman.com)
 
 ---
 
