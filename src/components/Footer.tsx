@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Github, Globe, Heart } from "lucide-react";
 
 export function Footer() {
@@ -8,7 +9,7 @@ export function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div className="sm:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
-               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600" />
+               <Image src="/icon.png" alt="Interview Prep Logo" width={32} height={32} className="h-8 w-auto rounded-lg" />
                <span className="text-lg font-bold tracking-tight text-gray-900 dark:text-white">
                  Interview Prep
                </span>

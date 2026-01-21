@@ -2,7 +2,9 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
-import html from "remark-html";
+import remarkRehype from "remark-rehype";
+import rehypeRaw from "rehype-raw";
+import rehypeStringify from "rehype-stringify";
 import { CompanyInterview, CompanyMeta } from "./types";
 
 const postsDirectory = path.join(process.cwd(), "content");
@@ -49,6 +51,7 @@ export function getAllCompanies(): CompanyMeta[] {
     return allCompaniesData.sort((a, b) => a.title.localeCompare(b.title));
 }
 
+
 export async function getCompanyData(slug: string): Promise<CompanyInterview> {
     const decodedSlug = decodeURIComponent(slug);
     const fullPath = path.join(postsDirectory, `${decodedSlug}.md`);
@@ -64,9 +67,12 @@ export async function getCompanyData(slug: string): Promise<CompanyInterview> {
     // Use gray-matter to parse the post metadata section
     const { content } = matter(fileContents);
 
-    // Use remark to convert markdown into HTML string
+    // Use remark and rehype to convert markdown into HTML string
+    // allowing raw HTML content (important for iframes/videos)
     const processedContent = await remark()
-        .use(html)
+        .use(remarkRehype, { allowDangerousHtml: true })
+        .use(rehypeRaw)
+        .use(rehypeStringify)
         .process(content);
     const contentHtml = processedContent.toString();
 
