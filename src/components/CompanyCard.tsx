@@ -8,9 +8,12 @@ import { motion } from "framer-motion";
 interface CompanyCardProps {
   company: CompanyMeta;
   index: number;
+  currentDate: string;
 }
 
-export function CompanyCard({ company, index }: CompanyCardProps) {
+export function CompanyCard({ company, index, currentDate }: CompanyCardProps) {
+  const isNew = new Date(company.date) > new Date(new Date(currentDate).getTime() - 30 * 24 * 60 * 60 * 1000);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -27,7 +30,7 @@ export function CompanyCard({ company, index }: CompanyCardProps) {
             </div>
             <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors flex items-center gap-2">
               {company.title}
-              {new Date(company.date) > new Date(Date.now() - 30 * 24 * 60 * 60 * 1000) && (
+              {isNew && (
                 <span className="inline-flex items-center rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300">
                   New
                 </span>
@@ -41,11 +44,10 @@ export function CompanyCard({ company, index }: CompanyCardProps) {
 
           <div className="flex items-center justify-between mt-auto">
             <span className="text-xs font-medium text-gray-400 dark:text-gray-500 flex items-center gap-2">
-              <span>{new Date(company.date).toLocaleDateString(undefined, {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric'
-              })}</span>
+              <span>{(() => {
+                const d = new Date(company.date);
+                return `${d.getDate()} ${d.toLocaleString('en-US', { month: 'short' })} ${d.getFullYear()}`;
+              })()}</span>
               <span>•</span>
               <span>{company.readingTime}</span>
             </span>

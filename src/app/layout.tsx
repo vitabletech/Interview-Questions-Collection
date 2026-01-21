@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://interview-questions.vitabletech.com"),
   title: "Interview Questions Collection | Ace Your Next Coding Interview",
   description: "A comprehensive collection of interview questions categorized by company, position, and tech stack. Prepare for your next frontend, backend, or fullstack engineer interview.",
   keywords: ["interview questions", "coding interview", "software engineer", "frontend", "backend", "system design", "react", "java", "javascript", "amazon", "google"],

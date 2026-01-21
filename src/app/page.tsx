@@ -16,7 +16,7 @@ export default function Home() {
         </p>
       </div>
 
-      <CompanyGrid initialCompanies={companies} />
+      <CompanyGrid initialCompanies={companies} currentDate={new Date().toISOString()} />
     </div>
   );
 }

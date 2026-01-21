@@ -7,9 +7,10 @@ import { Search, X } from "lucide-react";
 
 interface CompanyGridProps {
   initialCompanies: CompanyMeta[];
+  currentDate: string;
 }
 
-export function CompanyGrid({ initialCompanies }: CompanyGridProps) {
+export function CompanyGrid({ initialCompanies, currentDate }: CompanyGridProps) {
   const [query, setQuery] = useState("");
   const [sortOrder, setSortOrder] = useState<"a-z" | "z-a" | "newest" | "oldest">("a-z");
   
@@ -59,9 +60,9 @@ export function CompanyGrid({ initialCompanies }: CompanyGridProps) {
           {query && (
             <button
               onClick={() => setQuery("")}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full p-1 transition-colors"
             >
-              <X size={20} />
+              <X size={16} />
             </button>
           )}
         </div>
@@ -72,7 +73,7 @@ export function CompanyGrid({ initialCompanies }: CompanyGridProps) {
           <select
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value as any)}
-            className="rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-300"
+            className="rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 dark:border-gray-800 dark:bg-gray-900 dark:text-gray-300 cursor-pointer"
           >
             <option value="a-z">Name (A-Z)</option>
             <option value="z-a">Name (Z-A)</option>
@@ -84,7 +85,7 @@ export function CompanyGrid({ initialCompanies }: CompanyGridProps) {
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {currentCompanies.map((company, index) => (
-          <CompanyCard key={company.slug} company={company} index={index} />
+          <CompanyCard key={company.slug} company={company} index={index} currentDate={currentDate} />
         ))}
       </div>
 
