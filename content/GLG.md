@@ -1,3 +1,13 @@
+- 🛠️ **Role:** Fullstack Developer
+- 📍 **Location:** Gurugram, India
+- 👤 **Recruiter Name:** [Manisha Kanyal](mailto:mkanyal@glgroup.com)
+
+---
+### ✅ Round 1 – Technical Interview (Virtual Video Call)
+
+👤 **Interviewer:** James Gallagher
+
+---
 ## 1. Introduction and Background
 
 1. Can you introduce yourself and walk me through your past experience?
@@ -87,3 +97,116 @@
 40. Are you okay with a role that is not limited to only Node or frontend work?
 41. Are you interested in owning projects end-to-end and mentoring others?
 42. Does this role align with what you are looking for at this stage of your career?
+
+Here are the **questions that were asked to you during the 3rd round interview**, extracted cleanly and in order. I have removed all explanations, answers, and side conversations, and kept only the actual questions.
+
+---
+Round-2: GLG Coding Test : Senior Software Engineer : Mayank Singh Kushwah
+
+The next step in the interview process is a coding test. This is an important and one of the key criteria of the selection process. Sharing the GitHub Repository below, please get it running and make improvements to the code on
+Get the following project up and running in their local dev environment https://github.com/glg-public/glg-simple-movie-app
+Kindly prepared to discuss how did you fix the code, what were the issues that you came across, what methods you used.
+
+---
+
+### Round-3
+
+👤 **Interviewer:** James Gallagher, Ankush Sharma, Dheeraj Singh, Ronan
+
+
+
+### Introduction and CV Discussion
+
+1. Can you introduce yourself and talk a bit about your experience?
+2. We went through your CV last time. Did anything in your CV catch our attention that we should ask about?
+3. We see frequent job switches in recent years. Is there a specific reason for these short tenures?
+
+---
+
+### Databases and Backend Fundamentals
+
+4. You have worked on frontend, backend, and databases. What differences do you see between SQL and NoSQL?
+5. How do you decide when to use SQL versus NoSQL in an application?
+6. How have you used databases in your current or past applications?
+
+---
+
+### CI/CD and DevOps
+
+7. You mentioned CI/CD experience. Can you compare Jenkins with GitHub Actions or GitLab pipelines?
+8. How do these CI/CD tools fit different project requirements?
+9. How do you manage secrets so they are not exposed in logs or pipelines?
+
+---
+
+### AWS and Event-Driven Architecture
+
+10. You mentioned using AWS services like EventBridge, CloudFormation, Lambda, and API Gateway. Can you describe that setup?
+11. Can you explain the event bus design you worked on?
+12. What challenges did you face while implementing EventBridge?
+13. How did you resolve AWS limitations you encountered during deployment?
+14. Is there any data transformation happening before sending data to the vendor?
+15. Are you using Lambda, ECS, or any other service to process the data?
+16. How does the cron job, event bus, and processing flow work end to end?
+
+---
+
+### TypeScript
+
+17. You mentioned some experience with TypeScript. What are your general opinions on TypeScript?
+18. What are the differences between interface and type in TypeScript?
+19. When would you prefer interface over type, or vice versa?
+
+---
+
+### Technical Exercise Review
+
+20. Can you walk us through what issues you found in the application?
+21. What changes or enhancements did you make to fix the issues?
+22. Why did you introduce skeleton loaders?
+23. How did you handle CORS issues?
+24. Why did you implement retries for API calls?
+25. Why did you create a custom error boundary instead of using a library?
+26. How did you handle image failures and broken UI states?
+27. How did you optimize API calls and prevent unnecessary re-fetching?
+28. Can we look at the changes you made in the Media Detail Controller?
+
+---
+
+### Asynchronous JavaScript and Node.js
+
+29. Before your changes, what would this asynchronous function return?
+30. What was the core bug related to async handling in the original code?
+31. What is the minimum fix required to make this async function work?
+32. Can you evaluate this file system code and explain what happens step by step?
+33. What happens when the file is deleted before the read callback executes?
+34. Can you explain how asynchronous code works in Node.js?
+35. How does the event loop, call stack, and queue work together?
+
+---
+
+### Design Patterns and Architecture
+
+36. How would you implement dependency injection in JavaScript?
+37. Can you give a real-world example where you used dependency injection?
+
+---
+
+### Scaling Node.js Applications
+
+38. Since JavaScript is single-threaded, how would you scale a Node.js service to handle more traffic?
+39. What is clustering in Node.js?
+40. What problem does clustering solve?
+41. Why did you choose PM2 as a process manager?
+42. What benefits did PM2 provide in your projects?
+
+---
+
+### Closing
+
+43. Do you have any questions for us?
+44. What would be the next step in the interview process?
+45. How soon can a decision be expected?
+46. If selected, how quickly could you join?
+
+### Round-4
