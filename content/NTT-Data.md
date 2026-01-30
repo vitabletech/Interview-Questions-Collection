@@ -1,0 +1,19 @@
+- How does API Gateway handle request throttling?
+- How to secure an API in API Gateway?
+- Give the difference between REST API and HTTP API.
+- How to connect private vpc with api gateway
+- Tell me, how do you debug a 502 Bad Gateway error in API Gateway?
+- How do you design a multi-region active API Gateway setup?
+- tell me how do you handle cold start in AWS Lambda?
+- how you can deploy lamabda and lambda layer using ci/cd pipline?
+- How will be debug if something goes wrong in lambda?
+- how would you be add edit lambda layer?
+- what is KMS ?
+- How can we use it in ci/cd pipline how will it decrupt and where it will be store in case of lambda and ec2?
+- to handle event-driven architecture with S3 when uploading the large file.
+- Metrics and alarms.
+- What is the difference between IAM policy and resource-based policy?
+- Tell me, suppose I have two AWS accounts, okay, account A and account B. And from account A, I want to from account A Lambda, I want to call the account B Lambda. Can I call it?
+- const arr1 = [1, -1, 1, -1, 2];   // expected result: 2
+- const arr2 = [1, 4, -3, -2, 3];  // expected result: 5
+- Find the third highest salary from employee table.
