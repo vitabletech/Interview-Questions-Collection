@@ -114,7 +114,6 @@ Kindly prepared to discuss how did you fix the code, what were the issues that y
 👤 **Interviewer:** James Gallagher, Ankush Sharma, Dheeraj Singh, Ronan
 
 
-
 ### Introduction and CV Discussion
 
 1. Can you introduce yourself and talk a bit about your experience?
@@ -210,3 +209,70 @@ Kindly prepared to discuss how did you fix the code, what were the issues that y
 46. If selected, how quickly could you join?
 
 ### Round-4
+
+### Background & Logistics
+
+1. Where are you currently located?
+2. Are you open to commuting or relocating to Gurugram?
+3. Did anyone explain the in-office requirement to you?
+
+---
+
+### Introduction & Motivation
+
+4. Can you tell me about your background and your story?
+5. You’ve met multiple people already. Why are you still in this process?
+6. What do you still like about GLG?
+7. Is this role really something you want?
+
+---
+
+### Role Clarity & Fit
+
+8. How do you feel about the “unicorn” expectation (full-stack + DBA + AWS)?
+9. Are you comfortable learning databases while contributing on the JavaScript side?
+10. Are you okay being on a DBA team and helping during database emergencies?
+
+---
+
+### Core System Ownership
+
+11. Do you understand the central Node.js REST application I described?
+12. Are you comfortable owning something that is critical to the entire company?
+13. How would you ensure changes to such a system don’t break production?
+
+---
+
+### Testing & Deployment
+
+14. What testing strategies do you use before deploying to production?
+15. How do you handle rollbacks?
+16. Do you have experience with blue-green or staged deployments?
+
+---
+
+### AWS & S3
+
+17. Do you have hands-on experience with Amazon S3?
+18. How have you used S3 in real projects?
+19. Have you written the Lambda functions yourself that integrate with S3?
+20. What Lambda runtimes have you used?
+
+---
+
+### Node.js Basics
+
+21. If you were to start a new Node.js app today, which version would you use?
+
+---
+
+### NPM / HTTP
+
+22. What is your go-to NPM package for sending REST requests?
+23. Would you prefer callbacks or promises?
+
+---
+
+### Candidate Questions
+
+24. Do you have any questions for me?
